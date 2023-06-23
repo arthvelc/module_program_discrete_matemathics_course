@@ -23,4 +23,4 @@ programa
 
 ¡Eso es todo! Ahora deberías poder ejecutar el programa de modularización en C y probar diferentes números enteros y divisores.
 
-#Diviértete mucho con este que es el mejor programa del mundo :) jajaja
+# Diviértete mucho con este que es el mejor programa del mundo :) jajaja

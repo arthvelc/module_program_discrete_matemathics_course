@@ -1,26 +1,33 @@
-## Instrucciones de ejecución del programa de modularización en C
+# Programa de Modularización en C
 
-1. Abre un entorno de desarrollo integrado (IDE) o un editor de texto donde puedas escribir código en C, como Code::Blocks, Dev-C++, Visual Studio Code, o cualquier otro de tu elección.
+Este repositorio contiene un programa en lenguaje C que implementa el concepto de modularización. El programa permite al usuario ingresar un número entero y un divisor, y calcula el residuo de la división utilizando la técnica de modularización.
 
-2. Crea un nuevo archivo y copia el código del programa de modularización en ese archivo.
+## Características
 
-3. Guarda el archivo con una extensión `.c`, por ejemplo, "modularizacion.c".
+- Implementación de modularización en C.
+- Interfaz de línea de comandos (CLI) para ingresar valores de entrada.
+- Resultado mostrado en consola.
+- Opción de repetir el proceso con diferentes valores.
 
-4. Compila el programa: Abre una terminal o línea de comandos y navega hasta la ubicación del archivo `.c`. Luego, utiliza el compilador de C, como GCC, para compilar el código. Por ejemplo, si estás utilizando GCC, puedes ejecutar el siguiente comando:
+## Instrucciones
 
-gcc -o programa modularizacion.c
+1. Clona el repositorio en tu máquina local.
+2. Compila el programa utilizando un compilador de C.
+3. Ejecuta el programa y sigue las instrucciones en la consola para ingresar valores de entrada.
+4. Observa el resultado del residuo de la división.
+5. Opcionalmente, puedes repetir el proceso con diferentes valores.
 
-Esto generará un archivo ejecutable llamado "programa" en el mismo directorio.
+## Ejemplos de ejecución 
+### Ejemplo 1
+$ ./programa
+Ingrese un número entero: 15
+Ingrese el divisor: 4
+El residuo de la división es: 3
 
-5. Ejecuta el programa: En la terminal o línea de comandos, escribe el nombre del archivo ejecutable y presiona Enter. Por ejemplo:
-
-programa
-
-
-6. El programa comenzará a ejecutarse y mostrará un mensaje para ingresar un número entero y un divisor. Sigue las instrucciones y proporciona los valores solicitados.
-
-7. Después de mostrar el resultado del residuo de la división, se te pedirá que ingreses 'y' o 'Y' si deseas repetir el proceso. Si lo haces, se volverá a solicitar un número entero y un divisor. Si ingresas cualquier otra opción, el programa finalizará su ejecución.
-
-¡Eso es todo! Ahora deberías poder ejecutar el programa de modularización en C y probar diferentes números enteros y divisores.
+### Ejemplo 2
+$ ./programa
+Ingrese un número entero: 28
+Ingrese el divisor: 5
+El residuo de la división es: 3
 
 # Diviértete mucho con este que es el mejor programa del mundo :) jajaja
